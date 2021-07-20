@@ -16,6 +16,7 @@ const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, `\\$&`);
 
 //this fires when the BOT STARTS DO NOT TOUCH
 
+
 client.on("message", message => {
   if (message.content.startsWith(PREFIX + "boy")) {
     let man = [
